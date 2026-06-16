@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aviso Legal | Diana Bust Centro de Estética</title>
+
+<meta name="description" content="Aviso Legal de Diana Bust Centro de Estética en Mollet del Vallès. Términos y condiciones de uso del sitio web.">
+<meta name="keywords" content="aviso legal, términos de uso, Diana Bust">
+<meta name="author" content="Diana Bust Centro Estético">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#9B82A8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --malva: #9B82A8;
+    --malva-deep: #6F5A7E;
+    --malva-light: #B7A4C2;
+    --negro: #1A1620;
+    --bg: #F0EEEF;
+    --bg-alt: #FBFAFB;
+    --card: #FFFFFF;
+    --texto: #4A4350;
+    --texto-soft: #6E6676;
+    --border: rgba(155,130,168,0.22);
+
+    --black: var(--bg-alt);
+    --deep: var(--bg);
+    --purple: var(--malva-deep);
+    --purple-light: var(--malva-deep);
+    --purple-pale: #EDE6F2;
+    --gold: #c9a96e;
+    --white: var(--texto);
+    --grey: var(--texto-soft);
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--deep);
+    color: var(--white);
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.25;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(251,250,251,0.85);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+  }
+
+  nav .logo {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--purple);
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  }
+
+  nav .nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  nav a {
+    color: var(--texto);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: var(--purple);
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    nav .nav-links {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  }
+
+  main {
+    max-width: 900px;
+    margin: 120px auto 60px;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: var(--purple);
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+
+  h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.1rem;
+    color: var(--purple-light);
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 2px solid var(--border);
+  }
+
+  h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.95rem;
+    color: var(--purple);
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
+  }
+
+  p {
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+    color: var(--texto);
+    font-size: 0.8rem;
+  }
+
+  ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    color: var(--texto);
+    font-size: 0.75rem;
+  }
+
+  a {
+    color: var(--purple);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.3s;
+  }
+
+  a:hover {
+    color: var(--purple-light);
+    border-bottom-color: var(--purple-light);
+  }
+
+  strong {
+    color: var(--purple-light);
+    font-weight: 500;
+  }
+
+  footer {
+    background: var(--card);
+    border-top: 1px solid var(--border);
+    padding: 2rem;
+    text-align: center;
+    color: var(--texto-soft);
+    margin-top: 4rem;
+    font-size: 0.7rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .footer-logo {
+    font-family: 'Cinzel', serif;
+    color: var(--purple);
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-copy {
+    margin-bottom: 1rem;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .footer-social a {
+    display: inline-flex;
+    border: none;
+    color: var(--purple);
+    transition: color 0.3s;
+  }
+
+  .footer-social svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-social a:hover {
+    color: var(--purple-light);
+  }
+
+  .footer-links {
+    margin-top: 1rem;
+  }
+
+  .footer-links a {
+    margin: 0 1rem;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    main {
+      margin-top: 100px;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+    }
+  }
+
+  .update-date {
+    text-align: center;
+    color: var(--texto-soft);
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+</style>
+
+</head>
+<body>
+
+<nav>
+  <a href="./index.html" class="logo">DIANA BUST</a>
+  <div class="nav-links">
+    <a href="./index.html">Inicio</a>
+    <a href="./index.html#servicios">Servicios</a>
+    <a href="./index.html#contacto">Contacto</a>
+    <a href="./politica-privacidad.html">Privacidad</a>
+  </div>
+</nav>
+
+<main>
+  <h1>Aviso Legal</h1>
+  <div class="update-date">Última actualización: Junio de 2026</div>
+
+  <h2>1. Información general</h2>
+  <p>Este aviso legal rige el acceso y uso del sitio web www.dianabust.com (en adelante, el "Sitio Web"). Al acceder y utilizar este Sitio Web, aceptas estar vinculado por los términos y condiciones aquí establecidos.</p>
+
+  <h2>2. Identificación del titular</h2>
+  <p><strong>Nombre de la empresa:</strong> Diana Bust Centro Estético</p>
+  <p><strong>Domicilio:</strong> C/ Anselm Clavé, 1, Entresuelo D · 08100 Mollet del Vallès (Barcelona, España)</p>
+  <p><strong>Email de contacto:</strong> esteticadianab@gmail.com</p>
+  <p><strong>Teléfono:</strong> +34 667 393 749</p>
+
+  <h2>3. Autorización de uso</h2>
+  <p>El Sitio Web y su contenido, incluyendo pero no limitado a texto, gráficos, logos, imágenes y software, son propiedad de Diana Bust Centro Estético o sus licenciadores. Se te otorga una licencia limitada, no exclusiva e intransferible para acceder y usar el Sitio Web únicamente para propósitos personales y no comerciales.</p>
+
+  <h2>4. Restricciones de uso</h2>
+  <p>No está permitido:</p>
+  <ul>
+    <li>Reproducir, distribuir o transmitir el contenido sin autorización previa.</li>
+    <li>Modificar, adaptar, traducir o crear trabajos derivados del Sitio Web.</li>
+    <li>Usar el Sitio Web para fines ilegales o fraudulentos.</li>
+    <li>Acceder al Sitio Web mediante métodos no autorizados o automatizados.</li>
+    <li>Interferir con el funcionamiento normal del Sitio Web.</li>
+  </ul>
+
+  <h2>5. Descargo de responsabilidad</h2>
+  <p>El Sitio Web se proporciona "tal cual" sin garantías de ningún tipo. Diana Bust Centro Estético no garantiza que el Sitio Web sea seguro, libre de errores o ininterrumpido. No somos responsables de:</p>
+  <ul>
+    <li>Pérdida de datos o información.</li>
+    <li>Daños directos, indirectos, incidentales o consecuentes derivados del uso del Sitio Web.</li>
+    <li>La disponibilidad o precisión del contenido de terceros.</li>
+  </ul>
+
+  <h2>6. Enlaces externos</h2>
+  <p>El Sitio Web puede contener enlaces a sitios web de terceros. No somos responsables del contenido, precisión o prácticas de privacidad de estos sitios. El acceso a sitios externos está bajo tu propio riesgo.</p>
+
+  <h2>7. Privacidad y protección de datos</h2>
+  <p>Para información sobre cómo tratamos tus datos personales, consulta nuestra <a href="politica-privacidad.html">Política de Privacidad</a>, que forma parte integral de este Aviso Legal.</p>
+
+  <h2>8. Limitación de responsabilidad</h2>
+  <p>En la máxima extensión permitida por la ley, Diana Bust Centro Estético no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluso si ha sido advertida de la posibilidad de tales daños.</p>
+
+  <h2>9. Indemnización</h2>
+  <p>Aceptas indemnizar y mantener indemne a Diana Bust Centro Estético de cualquier reclamación, demanda, pérdida, responsabilidad o gasto (incluyendo honorarios de abogados) derivados de tu uso del Sitio Web o incumplimiento de este Aviso Legal.</p>
+
+  <h2>10. Modificaciones del Aviso Legal</h2>
+  <p>Nos reservamos el derecho de modificar este Aviso Legal en cualquier momento. Los cambios serán efectivos inmediatamente tras su publicación. Es tu responsabilidad revisar este Aviso Legal periódicamente para estar al tanto de cualquier cambio.</p>
+
+  <h2>11. Ley aplicable y jurisdicción</h2>
+  <p>Este Aviso Legal se rige por la ley española. Cualquier controversia derivada del uso del Sitio Web será resuelta por los juzgados y tribunales competentes de Barcelona, España.</p>
+
+  <h2>12. Contacto</h2>
+  <p>Si tienes preguntas sobre este Aviso Legal o deseas obtener más información, contacta con nosotros:</p>
+  <p><strong>Email:</strong> <a href="mailto:esteticadianab@gmail.com">esteticadianab@gmail.com</a></p>
+  <p><strong>Teléfono:</strong> <a href="tel:+34667393749">+34 667 393 749</a></p>
+  <p><strong>Dirección:</strong> C/ Anselm Clavé, 1, Entresuelo D · 08100 Mollet del Vallès (Barcelona)</p>
+
+  <hr style="margin: 3rem 0; border: none; border-top: 1px solid var(--border);">
+
+  <div style="text-align: center; color: var(--texto-soft); font-size: 0.8rem; margin-top: 2rem;">
+    <p><strong>Diana Bust Centro Estético</strong></p>
+    <p style="margin-top: 0.5rem;">© 2026 · Mollet del Vallès (Barcelona)</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-logo">Diana Bust · Centro de Estética en Mollet del Vallès</div>
+  <div class="footer-copy">© 2026 Diana Bust · C/ Anselm Clavé, 1, entresuelo D, 08100 Mollet del Vallès (Barcelona)</div>
+  <div class="footer-links">
+    <a href="./index.html">Inicio</a>
+    <a href="./politica-privacidad.html">Política de Privacidad</a>
+    <a href="./aviso-legal.html">Aviso Legal</a>
+  </div>
+  <div class="footer-social">
+    <a href="https://instagram.com/dianabustce" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+    <a href="https://wa.me/34667393749?text=Hola,%20me%20gustar%C3%ADa%20reservar%20una%20cita%20en%20DIANA%20BUST" target="_blank" rel="noopener" title="WhatsApp" aria-label="WhatsApp">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    </a>
+    <a href="tel:+34667393749" title="Teléfono" aria-label="Teléfono">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.68 12 19.79 19.79 0 0 1 1.63 3.45 2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.2a16 16 0 0 0 5.89 5.89l.95-.94a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.5 15.5l.42 1.42z"/></svg>
+    </a>
+    <a href="mailto:esteticadianab@gmail.com" title="Email" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6 12 13 2 6"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script>
+  const nav = document.querySelector('nav');
+  window.addEventListener('scroll', () => {
+    nav.style.background = window.scrollY > 60 ? 'rgba(251,250,251,0.97)' : 'rgba(251,250,251,0.85)';
+  });
+</script>
+
+</body>
+</html>
